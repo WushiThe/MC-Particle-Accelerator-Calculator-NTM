@@ -48,7 +48,7 @@ document.body.addEventListener("mousemove", (e) => {
 
 /// BUTTON ///
 var btnFuncs = {
-    ["new"]: function(btn) {
+    ["testing"]: function(btn) {
         var option = confirm("Testing Prompts")
         var res = prompt(`Coil Type`)
         if (res == "Superconducting") {
